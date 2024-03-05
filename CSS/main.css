@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navBar{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 12px;
+    background-color: rgba(142, 142, 142, 0.215);
+    padding: 20px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+    padding-left: 10px;
+}
+
+#Categories {
+    color: white;
+}
+
+.categoryRow{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.categoryItem {
+    padding: 20px;
+    width: 25%;
+    margin: 50px;
+    background: rgb(80, 79, 115);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(36, 3, 44) 35%, rgb(13, 0, 23) 100%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+}
+
+.categoryItem:hover {
+    scale: 1.025;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wednesdayImage{
+    display: flex;
+    color: #ffffff;
+    padding: 40px;
+    width: 200px;
+    height: 300px;
+    margin-right: 200px
+}
+
+.wednesdayText{
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(80, 79, 115);
+    height: 100%;
+}
+
+.wednesdayText h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wednesdayButton{
+   background-color: black;
+   color: #ffffff;
+   padding: 10px;
+   border-radius: 2px;
+   border: none;
+   margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(33, 32, 47) ;
+}
+
+.navBarFooter {
+    padding: 20px;
+    text-align: right;
+}
